@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Address Book</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <div class="container">
+      <div class="addressBook">
+        <h1>Enter required information for an Online Addess Book</h1>
+        <div id="blanks">
+          <form>
+            <div class="form-group">
+              <label class="name1">First Name</label>
+              <input id="name" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label class="name1">Last Name</label>
+              <input id="name2" class="form-control" type="text">
+            </div>
+
+            <div class="form-group">
+              <label class="address1">Address1</label>
+              <input id="address1" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label class="address2">Address2</label>
+              <input id="address2" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label class="city1">City</label>
+              <input id="city" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label class="state1">State</label>
+              <input id="state" class="form-control" type="text">
+            </div>
+            <div class="form-group">
+              <label class="zip1">Zip-Code</label>
+              <input id="zip" class="form-control" type="text">
+            </div>
+
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <div id="receipt">
+        <div class="receipt-hidden">
+          <h1>Confirmation</h1>
+        </div>
+          <p class="p1"><span class="name"></span> <span class="name2"></span> Thank you for your recent purchase, which will be shipped to:<br><br><span class="name"></span> <span class="name2"></span><br><span class="address1"></span><br><span class="address2"></span><br><span class="city"></span>, <span class="state"></span> <span class="zip"></span>                     </p>
+      </div>
+    </div>
+  </body>
+</html>
